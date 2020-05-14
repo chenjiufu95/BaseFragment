@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/shape_my_divider"
+    android:background="@drawable/bg_xingkong">
+    <include layout="@layout/my_topbar" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tb_frag_modes"
+        app:tabBackground="@color/Transparent"
+        app:tabMode="fixed"
+        app:tabRippleColor="@color/Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/frag_mode_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show/hide" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/frag_mode_replace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/frag_mode_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add/Remove" />
+    </com.google.android.material.tabs.TabLayout>
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f999" />-->
+    <FrameLayout
+        android:id="@+id/frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:id="@+id/ll_tabs_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="#0fff">
+        <TextView
+            android:id="@+id/tv_tab01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_tab01_selected"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Frag01"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/tv_tab02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_tab02_selected"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Frag02"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/tv_tab03"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_tab03_selected"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Frag03"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/tv_tab04"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_tab04_selected"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Frag04"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/page_last"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="上一页"
+            android:textSize="16sp"
+            android:textColor="@color/White"/>
+
+        <TextView
+            android:id="@+id/page_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:text="下一页"
+            android:textSize="16sp"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+
+</LinearLayout>
