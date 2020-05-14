@@ -32,7 +32,7 @@ dependencies {
     //沉浸式状态栏
     implementation 'com.github.niorgai:StatusBarCompat:2.1.3'
     // SuperUtils 依赖
-    implementation 'com.github.chenjiufu95:SuperUtils:0.2'
+    implementation 'com.gitee.chenjiufu95:SuperUtils:0.1'
     // SuperComponent 依赖
-    implementation 'com.github.chenjiufu95:SuperComponent:0.2'
+    implementation 'com.gitee.chenjiufu95:SuperComponent:0.2'
 }

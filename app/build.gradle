@@ -29,8 +29,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.2.0-alpha06'
     // SuperUtils 依赖
-    implementation 'com.github.chenjiufu95:SuperUtils:0.2'
+    implementation 'com.gitee.chenjiufu95:SuperUtils:0.1'
     // SuperComponent 依赖
-    implementation 'com.github.chenjiufu95:SuperComponent:0.2'
+    implementation 'com.gitee.chenjiufu95:SuperComponent:0.2'
     implementation project(':BaseFragment')
 }
