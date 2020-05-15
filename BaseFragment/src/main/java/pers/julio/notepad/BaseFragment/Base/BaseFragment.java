@@ -59,7 +59,6 @@ public abstract class BaseFragment extends Fragment implements HandleBackUtil.IB
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        final View rootView;
         if (setLayout() instanceof Integer) {
             rootView = inflater.inflate((int) setLayout(), container, false);
         } else if (setLayout() instanceof View) {
