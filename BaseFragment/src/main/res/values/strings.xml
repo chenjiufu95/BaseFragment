@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BaseFragment</string>
+    <string name="load_data_error">Load data error，exit soon</string>
 </resources>

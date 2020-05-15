@@ -55,7 +55,7 @@ public abstract class BaseFragmentActivity extends FragmentActivity {
         }
     }
     public void finishForLoadDataError() {
-        Toast.makeText(this, getString(R.string.load_error), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.load_data_error), Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
