@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+	
+	<color name="White">#ffffffff</color>
+    <color name="Black">#ff000000</color>
+    <color name="Red">#ff00ff00</color>
+    <color name="Green">#ff0000ff</color>
+    <color name="Blue">#ffffff00</color>
+    <color name="Yellow">#ffffff00</color>
+    <color name="Pink">#ffff00ff</color>
+    <color name="Cyan">#ff00ffff</color>
+
+    <color name="Transparent">#00000000</color>
+	<color name="myNaviColor">#FF33BBFF</color>
+	<color name="myTextColor">#FF222222</color>
+	
+	<color name="myWarmColor">#FFf2b02a</color>
+    <color name="myWarmColor_half">#ffF8D794</color>
+	<color name="myGreenLight">#FF00ff00</color>
+	
+	<color name="myGrayDark">#ff666666</color>  <!--#888888 -->
+    <color name="myGrayLight">#FFf2f2f2</color>
+    <color name="myGrayLightBg">#EEEEEE</color>
+
+	<color name="myDecoration">#ff999999</color>
+	<color name="myDecoration_light">#ffD3D0D0</color>
+</resources>
